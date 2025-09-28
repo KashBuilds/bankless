@@ -1,5 +1,5 @@
 import React from 'react';
-import { Banknote, TrendingUp, Shield, Zap } from 'lucide-react';
+import { TrendingUp, Shield, Zap } from 'lucide-react';
 
 export const HomePage: React.FC = () => {
   return (

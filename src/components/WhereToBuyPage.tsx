@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink, TrendingUp, Shield } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 
 export const WhereToBuyPage: React.FC = () => {
   const exchanges = [

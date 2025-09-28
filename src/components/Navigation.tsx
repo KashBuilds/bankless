@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, ExternalLink } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 interface NavigationProps {
   currentPage: string;
@@ -9,9 +9,6 @@ interface NavigationProps {
 export const Navigation: React.FC<NavigationProps> = ({ currentPage, onPageChange }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const handleBuyClick = () => {
-    window.open('https://oku.trade/?inputChain=plasma&inToken=0x0000000000000000000000000000000000000000&outToken=0xfc8a5aeefad8cc23f629489cdc6b0ec883d04702&isExactOut=false&inAmount=%2215%22&outAmount=%224423.091242806340783413%22', '_blank');
-  };
 
   const handleTwitterClick = () => {
     window.open('https://x.com/i/communities/1972012632203731133', '_blank');
