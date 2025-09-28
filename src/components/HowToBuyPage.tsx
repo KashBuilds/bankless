@@ -56,7 +56,7 @@ export const HowToBuyPage: React.FC = () => {
             How to Buy $BANKLESS
           </h1>
           <p className="text-xl text-gray-600">
-            Getting so many questions on how to buy $BANKLESS so I'm making a guide and pinning it.
+            Getting so many questions on how to buy $BANKLESS so I'm making a guide.
           </p>
         </div>
 
