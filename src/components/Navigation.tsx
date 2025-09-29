@@ -11,7 +11,7 @@ export const Navigation: React.FC<NavigationProps> = ({ currentPage, onPageChang
 
 
   const handleTwitterClick = () => {
-    window.open('https://x.com/i/communities/1972012632203731133', '_blank');
+    window.open('https://x.com/BanklessPlasma', '_blank');
   };
 
   const handleDexScreenerClick = () => {
